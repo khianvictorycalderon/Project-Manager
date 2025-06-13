@@ -34,6 +34,7 @@ ensure_excel_exist(db_path)
 ensure_sheet_exist(db_path, project_sheet)
 project_sheet_headers = ["ID", "Name", "Description", "Date Started", "Date Finished", "Remarks"]
 opxl_write_headers(db_path, project_sheet, headers=project_sheet_headers)
+remove_sheet(db_path, sheet_name="Sheet") # Remove default sheet
 
 frame_content = {
     "Project Management": {
