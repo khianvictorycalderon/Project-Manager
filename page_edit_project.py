@@ -53,7 +53,7 @@ def edit_project_page(parent):
         variable=edit_project_vars,
         button_color=color_3,
         button_hover_color=color_4,
-        button_label="Add Project",
+        button_label="Edit Project",
         default_font=font_3,
         on_submit=edit_project
     ).pack(fill = BOTH)
