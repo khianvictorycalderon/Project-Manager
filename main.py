@@ -4,7 +4,7 @@ import customtkinter as ctk
 
 from colors import * # color_1, color_2, up to color_6
 from fonts import * # font_1, font_2, up to font_4
-from dual_frame import create_dual_frame
+from ctk_temp_dual_frame import create_dual_frame
 
 app = ctk.CTk()
 screen_width = app.winfo_screenwidth()
