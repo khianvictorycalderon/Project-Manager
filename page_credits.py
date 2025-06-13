@@ -16,6 +16,7 @@ def credits_page(parent):
             "Khian Victory D. Calderon"
         ],
         "Contact Me": [
+            "https://khian.netlify.app/",
             "https://github.com/khianvictorycalderon/",
             "https://www.upwork.com/freelancers/~013a9c6d4543925f1e",
             "https://www.linkedin.com/in/khian-victory-d-calderon-b1493030a/",
