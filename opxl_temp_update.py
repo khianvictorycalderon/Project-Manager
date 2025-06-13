@@ -84,19 +84,19 @@ def opxl_update(file_path, sheet_name, new_values, row=None, condition=None):
             print(f"Updated {rows_updated} row(s) matching the condition.")
 
 
-# Sample Usage
+# # Sample Usage
 
-db = "sample.xlsx"
-sheet = "Sample_Sheet"
+# db = "sample.xlsx"
+# sheet = "Sample_Sheet"
 
-# Update row 2: set "Age" to 28 and "First Name" to "John"
-opxl_update(db, sheet, new_values={"Age": 28, "First Name": "John"}, row=2)
+# # Update row 2: set "Age" to 28 and "First Name" to "John"
+# opxl_update(db, sheet, new_values={"Age": 28, "First Name": "John"}, row=2)
 
-# Update all rows where "First Name" == "Sarah" to set "Age" to 30
-opxl_update(db, sheet, new_values={"Age": 30}, condition={"First Name": "Sarah"})
+# # Update all rows where "First Name" == "Sarah" to set "Age" to 30
+# opxl_update(db, sheet, new_values={"Age": 30}, condition={"First Name": "Sarah"})
 
-# Update all rows where Age <= 17, set "Status" to "Minor"
-opxl_update(db, sheet, new_values={"Status": "Minor"}, condition={"Age": lambda x: x is not None and x <= 17})
+# # Update all rows where Age <= 17, set "Status" to "Minor"
+# opxl_update(db, sheet, new_values={"Status": "Minor"}, condition={"Age": lambda x: x is not None and x <= 17})
 
-# Update every row's Status to "Active"
-opxl_update(db, sheet, new_values={"Status": "Active"})
+# # Update every row's Status to "Active"
+# opxl_update(db, sheet, new_values={"Status": "Active"})

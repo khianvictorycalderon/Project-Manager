@@ -73,21 +73,21 @@ def opxl_delete(file_path, sheet_name, condition=None, row=None):
             print("No data rows to delete.")
             
 
-# Sample Usage
+# # Sample Usage
 
-db = "sample.xlsx"
-sheet = "Sample_Sheet"
+# db = "sample.xlsx"
+# sheet = "Sample_Sheet"
 
-# 3 ways to delete a row:
+# # 3 ways to delete a row:
 
-# Delete row 1
-opxl_delete(db, sheet, row=1)
+# # Delete row 1
+# opxl_delete(db, sheet, row=1)
 
-# Delete all rows where First Name == "Karen"
-opxl_delete(db, sheet, condition={"First Name": "Karen"})
+# # Delete all rows where First Name == "Karen"
+# opxl_delete(db, sheet, condition={"First Name": "Karen"})
 
-# Delete all rows where Age >= 35
-opxl_delete(db, sheet, condition={"Age": lambda x: x is not None and x >= 35})
+# # Delete all rows where Age >= 35
+# opxl_delete(db, sheet, condition={"Age": lambda x: x is not None and x >= 35})
 
-# Simply delete all rows (Except the headers ofcourse)
-opxl_delete(db, sheet)
+# # Simply delete all rows (Except the headers ofcourse)
+# opxl_delete(db, sheet)

@@ -37,12 +37,12 @@ def remove_sheet(file_path, sheet_name):
     else:
         print(f"Sheet '{sheet_name}' does not exist in {file_path}")
 
-# Sample usage:
+# # Sample usage:
 
-db = "sample.xlsx"
-sheet = "Sample_Sheet"
-default_sheet = "Sheet"
+# db = "sample.xlsx"
+# sheet = "Sample_Sheet"
+# default_sheet = "Sheet"
 
-ensure_excel_exist(db)
-ensure_sheet_exist(db, sheet)
-remove_sheet(db, default_sheet)  # Remove default sheet
+# ensure_excel_exist(db)
+# ensure_sheet_exist(db, sheet)
+# remove_sheet(db, default_sheet)  # Remove default sheet

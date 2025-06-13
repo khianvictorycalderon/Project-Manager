@@ -26,5 +26,5 @@ def generate_unique_id_across_sheets(file_path, sheets_name, column=1, id_length
         if new_id not in existing_ids:
             return new_id
 
-# Example usage:
-print(generate_unique_id_across_sheets("sample.xlsx", ["Sheet 1", "Sheet 2"]))
+# # Example usage:
+# print(generate_unique_id_across_sheets("sample.xlsx", ["Sheet 1", "Sheet 2"]))
